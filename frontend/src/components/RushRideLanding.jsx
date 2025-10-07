@@ -414,11 +414,11 @@ const RushRideLanding = () => {
               <ul className="space-y-3">
                 <li className="flex items-center space-x-2 text-gray-600 text-sm">
                   <Mail className="w-4 h-4 text-blue-600" />
-                  <span>info@rushride.com</span>
+                  <span>rushrideofficial@gmail.com</span>
                 </li>
                 <li className="flex items-center space-x-2 text-gray-600 text-sm">
                   <Phone className="w-4 h-4 text-blue-600" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 9633264055</span>
                 </li>
               </ul>
             </div>
