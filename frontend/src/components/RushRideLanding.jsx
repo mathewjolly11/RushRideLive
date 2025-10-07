@@ -291,7 +291,7 @@ const RushRideLanding = () => {
             </p>
           </div>
           <a
-            href="https://wa.me/919633264055"
+            href="https://wa.me/919633264055?text=Hello%20I%20am%20interested%20in%20the%20RushRide%20Web%20App.%20Please%20share%20a%20live%20demo%20link."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white font-semibold py-4 px-8 rounded-xl text-lg shadow-lg transition-all duration-200 flex items-center gap-3 w-full justify-center"
@@ -385,7 +385,7 @@ const RushRideLanding = () => {
           <div className="flex flex-col items-center md:items-end">
             <span className="font-semibold mb-2 text-gray-700">Contact Us</span>
             <a
-              href="https://wa.me/919633264055"
+              href="https://wa.me/919633264055?text=Hello%20I%20am%20interested%20in%20the%20RushRide%20Web%20App.%20Please%20share%20a%20live%20demo%20link."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-xl text-base shadow-lg transition-all duration-200 flex items-center gap-2"
