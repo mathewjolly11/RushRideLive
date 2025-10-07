@@ -13,7 +13,7 @@ import {
 
 export const mockData = {
   video: {
-    embedUrl: "https://drive.google.com/file/d/1ABC123XYZ/preview", // Replace with actual Google Drive video ID
+    embedUrl: "https://drive.google.com/file/d/1Du8G4DPeFneCXY9jMW7UY7_ICd12HSb2/preview", // Replace with actual Google Drive video ID
     thumbnail: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=450&fit=crop&crop=center"
   },
   

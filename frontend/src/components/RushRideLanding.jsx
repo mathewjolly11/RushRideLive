@@ -52,13 +52,29 @@ const RushRideLanding = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Mock form submission
-    console.log('Form submitted:', formData);
-    setShowSuccess(true);
-    setTimeout(() => setShowSuccess(false), 3000);
-    setFormData({ name: '', email: '', company: '', message: '' });
+    setShowSuccess(false);
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message
+        }),
+      });
+      if (res.ok) {
+        setShowSuccess(true);
+        setFormData({ name: '', email: '', company: '', message: '' });
+        setTimeout(() => setShowSuccess(false), 3000);
+      } else {
+        alert('Error sending message.');
+      }
+    } catch {
+      alert('Error sending message.');
+    }
   };
 
   const scrollToTop = () => {
